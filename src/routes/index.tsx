@@ -23,16 +23,16 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE = "(215) 555-0182";
-const PHONE_HREF = "tel:+12155550182";
+const PHONE = "(267) 371-7133";
+const PHONE_HREF = "tel:+12673717133";
 
 const services = [
-  { name: "Signature Haircut", desc: "Consultation, cut, hot towel, and style.", price: "$35" },
-  { name: "Beard Trim & Shape", desc: "Precision shaping with hot lather finish.", price: "$20" },
-  { name: "Hot Towel Shave", desc: "Traditional straight-razor shave experience.", price: "$40" },
-  { name: "The Works", desc: "Haircut, beard trim, and hot towel shave.", price: "$75" },
-  { name: "Father & Son", desc: "Two classic cuts, side by side.", price: "$55" },
-  { name: "Buzz Cut", desc: "Clean, single-guard cut with neckline.", price: "$20" },
+  { name: "Signature Haircut", desc: "Consultation, cut, hot towel, and style.", price: "~$35" },
+  { name: "Beard Trim & Shape", desc: "Precision shaping with hot lather finish.", price: "~$20" },
+  { name: "Hot Towel Shave", desc: "Traditional straight-razor shave experience.", price: "~$40" },
+  { name: "The Works", desc: "Haircut, beard trim, and hot towel shave.", price: "~$75" },
+  { name: "Father & Son", desc: "Two classic cuts, side by side.", price: "~$55" },
+  { name: "Buzz Cut", desc: "Clean, single-guard cut with neckline.", price: "~$20" },
 ];
 
 const reviews = [
@@ -180,11 +180,10 @@ function Index() {
               A family business, sharpened by tradition.
             </h2>
             <p className="mt-6 text-muted-foreground">
-              The Fine Barbershop was opened by Tony Marino in 1998, with one
-              goal: bring back the classic barbershop experience that
-              Quakertown grew up with. Today, Tony still mans his chair beside
-              his son Marco, who joined the shop after apprenticing for five
-              years under his father.
+              The Fine Barbershop opened its doors in 1998 with one goal:
+              bring back the classic barbershop experience that Quakertown
+              grew up with. Our team carries on that tradition, with decades
+              of combined craft sharpened right here in the community.
             </p>
             <p className="mt-4 text-muted-foreground">
               We're not a chain. We're not a salon. We're a neighborhood shop
@@ -280,7 +279,7 @@ function Index() {
                       Visit
                     </div>
                     <div className="mt-1 font-medium">
-                      214 W Broad Street
+                      1408-5 W Broad St
                       <br />
                       Quakertown, PA 18951
                     </div>
@@ -294,15 +293,19 @@ function Index() {
                     </div>
                     <dl className="mt-2 space-y-1 text-sm">
                       <div className="flex justify-between gap-6">
+                        <dt className="text-muted-foreground">Monday</dt>
+                        <dd>11:00 AM – 7:00 PM</dd>
+                      </div>
+                      <div className="flex justify-between gap-6">
                         <dt className="text-muted-foreground">Tue – Fri</dt>
-                        <dd>9:00 AM – 7:00 PM</dd>
+                        <dd>8:00 AM – 7:00 PM</dd>
                       </div>
                       <div className="flex justify-between gap-6">
                         <dt className="text-muted-foreground">Saturday</dt>
                         <dd>8:00 AM – 4:00 PM</dd>
                       </div>
                       <div className="flex justify-between gap-6">
-                        <dt className="text-muted-foreground">Sun – Mon</dt>
+                        <dt className="text-muted-foreground">Sunday</dt>
                         <dd>Closed</dd>
                       </div>
                     </dl>
