@@ -279,7 +279,7 @@ function Index() {
                       Visit
                     </div>
                     <div className="mt-1 font-medium">
-                      214 W Broad Street
+                      1408-5 W Broad St
                       <br />
                       Quakertown, PA 18951
                     </div>
