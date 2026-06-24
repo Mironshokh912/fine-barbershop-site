@@ -27,12 +27,12 @@ const PHONE = "(267) 371-7133";
 const PHONE_HREF = "tel:+12673717133";
 
 const services = [
-  { name: "Signature Haircut", desc: "Consultation, cut, hot towel, and style.", price: "$35" },
-  { name: "Beard Trim & Shape", desc: "Precision shaping with hot lather finish.", price: "$20" },
-  { name: "Hot Towel Shave", desc: "Traditional straight-razor shave experience.", price: "$40" },
-  { name: "The Works", desc: "Haircut, beard trim, and hot towel shave.", price: "$75" },
-  { name: "Father & Son", desc: "Two classic cuts, side by side.", price: "$55" },
-  { name: "Buzz Cut", desc: "Clean, single-guard cut with neckline.", price: "$20" },
+  { name: "Signature Haircut", desc: "Consultation, cut, hot towel, and style.", price: "~$35" },
+  { name: "Beard Trim & Shape", desc: "Precision shaping with hot lather finish.", price: "~$20" },
+  { name: "Hot Towel Shave", desc: "Traditional straight-razor shave experience.", price: "~$40" },
+  { name: "The Works", desc: "Haircut, beard trim, and hot towel shave.", price: "~$75" },
+  { name: "Father & Son", desc: "Two classic cuts, side by side.", price: "~$55" },
+  { name: "Buzz Cut", desc: "Clean, single-guard cut with neckline.", price: "~$20" },
 ];
 
 const reviews = [
