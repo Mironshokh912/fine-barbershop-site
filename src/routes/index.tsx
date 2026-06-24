@@ -293,15 +293,19 @@ function Index() {
                     </div>
                     <dl className="mt-2 space-y-1 text-sm">
                       <div className="flex justify-between gap-6">
+                        <dt className="text-muted-foreground">Monday</dt>
+                        <dd>11:00 AM – 7:00 PM</dd>
+                      </div>
+                      <div className="flex justify-between gap-6">
                         <dt className="text-muted-foreground">Tue – Fri</dt>
-                        <dd>9:00 AM – 7:00 PM</dd>
+                        <dd>8:00 AM – 7:00 PM</dd>
                       </div>
                       <div className="flex justify-between gap-6">
                         <dt className="text-muted-foreground">Saturday</dt>
                         <dd>8:00 AM – 4:00 PM</dd>
                       </div>
                       <div className="flex justify-between gap-6">
-                        <dt className="text-muted-foreground">Sun – Mon</dt>
+                        <dt className="text-muted-foreground">Sunday</dt>
                         <dd>Closed</dd>
                       </div>
                     </dl>
