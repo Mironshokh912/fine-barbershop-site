@@ -23,8 +23,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE = "(215) 555-0182";
-const PHONE_HREF = "tel:+12155550182";
+const PHONE = "(267) 371-7133";
+const PHONE_HREF = "tel:+12673717133";
 
 const services = [
   { name: "Signature Haircut", desc: "Consultation, cut, hot towel, and style.", price: "$35" },
