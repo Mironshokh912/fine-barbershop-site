@@ -180,11 +180,10 @@ function Index() {
               A family business, sharpened by tradition.
             </h2>
             <p className="mt-6 text-muted-foreground">
-              The Fine Barbershop was opened by Tony Marino in 1998, with one
-              goal: bring back the classic barbershop experience that
-              Quakertown grew up with. Today, Tony still mans his chair beside
-              his son Marco, who joined the shop after apprenticing for five
-              years under his father.
+              The Fine Barbershop opened its doors in 1998 with one goal:
+              bring back the classic barbershop experience that Quakertown
+              grew up with. Our team carries on that tradition, with decades
+              of combined craft sharpened right here in the community.
             </p>
             <p className="mt-4 text-muted-foreground">
               We're not a chain. We're not a salon. We're a neighborhood shop
